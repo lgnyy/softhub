@@ -1,0 +1,13 @@
+{
+  "name": "tools-hub",
+  "version": "1.0.0",
+  "description": "自动更新版本的软件下载页面，可部署到 Netlify",
+  "type": "module",
+  "scripts": {
+    "update": "node scripts/update-versions.mjs",
+    "build": "node scripts/update-versions.mjs"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

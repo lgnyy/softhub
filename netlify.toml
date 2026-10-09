@@ -1,0 +1,15 @@
+[build]
+  command = "npm run build"
+  publish = "."
+
+[build.environment]
+  NODE_VERSION = "20"
+
+# 定时任务的调度声明已移至 netlify/functions/scheduled-update.mjs 的 config.schedule
+# 每周一 02:00 UTC 自动触发版本更新并重建
+
+[[headers]]
+  for = "/data/versions.json"
+  [headers.values]
+    Cache-Control = "public, max-age=3600"
+    Content-Type = "application/json; charset=utf-8"

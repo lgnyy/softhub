@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>常用软件下载 - 高效工作助手</title>
+    <link rel="stylesheet" href="assets/css/fontawesome.min.css">
+    <link rel="stylesheet" href="assets/css/inter-fonts.css">
+    <style>
+        :root {
+            --primary-color: #2563eb;
+            --secondary-color: #3b82f6;
+            --light-color: #f8fafc;
+            --dark-color: #1e293b;
+            --success-color: #10b981;
+            --warning-color: #f59e0b;
+            --security-color: #8b5cf6;
+            --multimedia-color: #ec4899;
+            --border-color: #e2e8f0;
+            --text-color: #334155;
+            --text-light: #64748b;
+            --shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+            --radius: 8px;
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            line-height: 1.6;
+            color: var(--text-color);
+            background-color: #f8fafc;
+        }
+
+        .container { max-width: 1200px; margin: 0 auto; padding: 0 20px; }
+
+        header {
+            background-color: white;
+            box-shadow: var(--shadow);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 0;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            font-weight: 700;
+            font-size: 1.5rem;
+            color: var(--dark-color);
+            text-decoration: none;
+        }
+
+        .logo i { margin-right: 10px; color: var(--primary-color); }
+
+        .update-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            font-size: 0.8rem;
+            color: var(--text-light);
+            font-weight: 500;
+        }
+
+        .update-badge i { color: var(--success-color); }
+
+        .nav-links { display: flex; list-style: none; }
+        .nav-links li { margin-left: 30px; }
+        .nav-links a {
+            text-decoration: none;
+            color: var(--text-color);
+            font-weight: 500;
+            transition: color 0.3s;
+        }
+        .nav-links a:hover { color: var(--primary-color); }
+
+        .mobile-menu-btn {
+            display: none;
+            background: none;
+            border: none;
+            font-size: 1.5rem;
+            color: var(--dark-color);
+            cursor: pointer;
+        }
+
+        .page-header { text-align: center; padding: 10px 0 10px; }
+
+        .tools-controls {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 30px;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+
+        .search-box { flex-grow: 1; max-width: 400px; position: relative; }
+        .search-box input {
+            width: 100%;
+            padding: 12px 20px 12px 45px;
+            border: 1px solid var(--border-color);
+            border-radius: var(--radius);
+            font-size: 1rem;
+            transition: all 0.3s;
+        }
+        .search-box input:focus {
+            outline: none;
+            border-color: var(--primary-color);
+            box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.1);
+        }
+        .search-box i {
+            position: absolute;
+            left: 15px;
+            top: 50%;
+            transform: translateY(-50%);
+            color: var(--text-light);
+        }
+
+        .filter-tabs { display: flex; flex-wrap: wrap; gap: 10px; }
+        .filter-btn {
+            padding: 10px 20px;
+            background-color: white;
+            border: 1px solid var(--border-color);
+            border-radius: 50px;
+            font-weight: 500;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+        .filter-btn:hover { border-color: var(--primary-color); color: var(--primary-color); }
+        .filter-btn.active { background-color: var(--primary-color); border-color: var(--primary-color); color: white; }
+
+        .filter-btn[data-filter="security"] { border-color: var(--security-color); color: var(--security-color); }
+        .filter-btn[data-filter="security"]:hover,
+        .filter-btn[data-filter="security"].active { background-color: var(--security-color); border-color: var(--security-color); color: white; }
+
+        .filter-btn[data-filter="multimedia"] { border-color: var(--multimedia-color); color: var(--multimedia-color); }
+        .filter-btn[data-filter="multimedia"]:hover,
+        .filter-btn[data-filter="multimedia"].active { background-color: var(--multimedia-color); border-color: var(--multimedia-color); color: white; }
+
+        .tools-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+            gap: 30px;
+            margin-bottom: 60px;
+        }
+
+        .tool-card {
+            background-color: white;
+            border-radius: var(--radius);
+            box-shadow: var(--shadow);
+            overflow: hidden;
+            transition: transform 0.3s, box-shadow 0.3s;
+            position: relative;
+        }
+        .tool-card:hover { transform: translateY(-5px); box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1); }
+        .tool-card.featured { border-top: 4px solid var(--security-color); }
+
+        .featured-badge {
+            position: absolute;
+            top: 15px;
+            right: 15px;
+            background-color: var(--security-color);
+            color: white;
+            padding: 5px 10px;
+            border-radius: 4px;
+            font-size: 0.75rem;
+            font-weight: 600;
+            z-index: 1;
+        }
+
+        .tool-header { padding: 25px 25px 15px; border-bottom: 1px solid var(--border-color); }
+        .tool-icon {
+            width: 60px;
+            height: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 12px;
+            margin-bottom: 15px;
+            font-size: 1.8rem;
+            color: white;
+        }
+        .tool-title { font-size: 1.4rem; margin-bottom: 8px; color: var(--dark-color); }
+        .tool-description { color: var(--text-light); font-size: 0.95rem; }
+
+        .tool-details { padding: 20px 25px; }
+        .tool-meta {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 20px;
+            font-size: 0.9rem;
+        }
+        .tool-version { color: var(--success-color); font-weight: 600; }
+        .tool-date { color: var(--text-light); }
+
+        .tool-platforms { margin-bottom: 25px; }
+        .platform-title { font-size: 0.9rem; font-weight: 600; margin-bottom: 10px; color: var(--dark-color); }
+        .platform-badges { display: flex; flex-wrap: wrap; gap: 8px; }
+        .platform-badge {
+            padding: 6px 12px;
+            background-color: var(--light-color);
+            border-radius: 50px;
+            font-size: 0.85rem;
+            font-weight: 500;
+        }
+        .platform-badge.mobile { background-color: #e0f2fe; color: #0369a1; }
+        .platform-badge.desktop { background-color: #f0f9ff; color: #0c4a6e; }
+
+        .tool-download { display: flex; justify-content: space-between; align-items: center; }
+        .download-btn {
+            padding: 12px 25px;
+            background-color: var(--primary-color);
+            color: white;
+            text-decoration: none;
+            border-radius: var(--radius);
+            font-weight: 600;
+            transition: background-color 0.3s;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+        }
+        .download-btn.security { background-color: var(--security-color); }
+        .download-btn.security:hover { background-color: #7c3aed; }
+        .download-btn.multimedia { background-color: var(--multimedia-color); }
+        .download-btn.multimedia:hover { background-color: #db2777; }
+        .download-btn:hover { background-color: var(--secondary-color); }
+        .tool-size { color: var(--text-light); font-size: 0.9rem; }
+
+        .loading { text-align: center; padding: 60px 20px; color: var(--text-light); }
+        .loading i { font-size: 2rem; margin-bottom: 15px; color: var(--primary-color); }
+
+        footer { background-color: var(--dark-color); color: white; padding: 50px 0 30px; }
+        .footer-content { display: flex; justify-content: space-between; flex-wrap: wrap; gap: 40px; }
+        .footer-section { flex: 1; min-width: 250px; }
+        .footer-section h3 { font-size: 1.2rem; margin-bottom: 20px; color: white; }
+        .footer-links { list-style: none; }
+        .footer-links li { margin-bottom: 10px; }
+        .footer-links a { color: #cbd5e1; text-decoration: none; transition: color 0.3s; }
+        .footer-links a:hover { color: white; }
+        .copyright {
+            text-align: center;
+            margin-top: 50px;
+            padding-top: 20px;
+            border-top: 1px solid #334155;
+            color: #94a3b8;
+            font-size: 0.9rem;
+        }
+
+        @media (max-width: 768px) {
+            .navbar { padding: 15px 0; }
+            .nav-links {
+                display: none;
+                position: absolute;
+                top: 70px;
+                left: 0;
+                width: 100%;
+                background-color: white;
+                flex-direction: column;
+                padding: 20px;
+                box-shadow: var(--shadow);
+            }
+            .nav-links.active { display: flex; }
+            .nav-links li { margin: 10px 0; }
+            .mobile-menu-btn { display: block; }
+            .tools-controls { flex-direction: column; align-items: stretch; }
+            .search-box { max-width: 100%; }
+            .tools-grid { grid-template-columns: 1fr; }
+        }
+
+        @media (max-width: 480px) {
+            .tool-download { flex-direction: column; gap: 15px; align-items: flex-start; }
+            .download-btn { width: 100%; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav class="navbar">
+                <a href="#" class="logo">
+                    <i class="fas fa-toolbox"></i>
+                    <span>ToolsHub-常用工具下载</span>
+                </a>
+
+                <ul class="nav-links">
+                    <li><a href="#"><i class="fas fa-home"></i> 首页</a></li>
+                    <li><a href="#"><i class="fas fa-download"></i> 下载</a></li>
+                    <li><a href="#"><i class="fas fa-shield-alt"></i> 安全工具</a></li>
+                    <li><a href="#"><i class="fas fa-film"></i> 多媒体</a></li>
+                </ul>
+
+                <button class="mobile-menu-btn" id="mobileMenuBtn">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <section class="page-header"></section>
+
+    <main class="container">
+        <div class="tools-controls">
+            <div class="search-box">
+                <i class="fas fa-search"></i>
+                <input type="text" id="searchInput" placeholder="搜索工具...">
+            </div>
+
+            <div class="filter-tabs">
+                <button class="filter-btn active" data-filter="all">全部工具</button>
+                <button class="filter-btn" data-filter="system">系统工具</button>
+                <button class="filter-btn" data-filter="network">网络工具</button>
+                <button class="filter-btn" data-filter="security">安全工具</button>
+                <button class="filter-btn" data-filter="development">开发工具</button>
+                <button class="filter-btn" data-filter="multimedia">多媒体</button>
+                <button class="filter-btn" data-filter="productivity">效率工具</button>
+            </div>
+        </div>
+
+        <div class="tools-grid" id="toolsGrid">
+            <div class="loading">
+                <i class="fas fa-spinner fa-spin"></i>
+                <p>正在加载工具列表...</p>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>ToolsHub</h3>
+                    <p>提供安全可靠的常用工具下载服务，所有软件均来自官方源，每周自动更新确保版本最新。</p>
+                    <p style="margin-top:10px" class="update-badge" id="footerUpdate">
+                        <i class="fas fa-sync-alt"></i>
+                        <span id="lastUpdateText">正在检查更新时间...</span>
+                    </p>
+                </div>
+
+                <div class="footer-section">
+                    <h3>快速链接</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">首页</a></li>
+                        <li><a href="#">下载中心</a></li>
+                        <li><a href="#">安全工具</a></li>
+                        <li><a href="#">多媒体工具</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h3>支持</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">常见问题</a></li>
+                        <li><a href="#">使用教程</a></li>
+                        <li><a href="#">联系我们</a></li>
+                        <li><a href="#">反馈建议</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h3>法律</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">免责声明</a></li>
+                        <li><a href="#">隐私政策</a></li>
+                        <li><a href="#">使用条款</a></li>
+                        <li><a href="#">版权信息</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="copyright">
+                <p>&copy; 2026 ToolsHub 常用工具下载页面. 本页面仅作演示用途，软件版权归各自开发者所有。</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        let toolsData = [];
+        let currentFilter = 'all';
+        let currentSearch = '';
+
+        const toolsGrid = document.getElementById('toolsGrid');
+        const filterButtons = document.querySelectorAll('.filter-btn');
+        const searchInput = document.getElementById('searchInput');
+        const mobileMenuBtn = document.getElementById('mobileMenuBtn');
+        const navLinks = document.querySelector('.nav-links');
+
+        async function loadTools() {
+            try {
+                const res = await fetch('data/versions.json?t=' + Date.now());
+                if (!res.ok) throw new Error('HTTP ' + res.status);
+                toolsData = await res.json();
+                renderTools(toolsData);
+                updateLastUpdated();
+            } catch (err) {
+                toolsGrid.innerHTML = '<div class="loading"><i class="fas fa-exclamation-triangle" style="color:#ef4444"></i><p>加载工具列表失败，请稍后重试。</p></div>';
+                console.error('加载失败:', err);
+            }
+        }
+
+        function updateLastUpdated() {
+            const dates = toolsData.map(t => t.date).filter(Boolean).sort();
+            const latest = dates[dates.length - 1];
+            const el = document.getElementById('lastUpdateText');
+            el.textContent = latest ? '数据更新于 ' + latest : '版本数据待更新';
+        }
+
+        filterButtons.forEach(button => {
+            button.addEventListener('click', () => {
+                filterButtons.forEach(btn => btn.classList.remove('active'));
+                button.classList.add('active');
+                currentFilter = button.getAttribute('data-filter');
+                applyFilter();
+            });
+        });
+
+        searchInput.addEventListener('input', () => {
+            currentSearch = searchInput.value.toLowerCase();
+            applyFilter();
+        });
+
+        mobileMenuBtn.addEventListener('click', () => navLinks.classList.toggle('active'));
+        document.addEventListener('click', (e) => {
+            if (!e.target.closest('.nav-links') && !e.target.closest('.mobile-menu-btn')) {
+                navLinks.classList.remove('active');
+            }
+        });
+
+        function applyFilter() {
+            let filtered = toolsData;
+            if (currentFilter !== 'all') {
+                filtered = filtered.filter(t => t.category === currentFilter);
+            }
+            if (currentSearch) {
+                filtered = filtered.filter(t =>
+                    t.name.toLowerCase().includes(currentSearch) ||
+                    t.description.toLowerCase().includes(currentSearch)
+                );
+            }
+            renderTools(filtered);
+        }
+
+        function renderTools(tools) {
+            if (tools.length === 0) {
+                toolsGrid.innerHTML = '<div class="loading"><p>没有找到匹配的工具。</p></div>';
+                return;
+            }
+            toolsGrid.innerHTML = tools.map(tool => {
+                const platformBadges = (tool.platforms || []).map((platform, index) => {
+                    const type = (tool.platformTypes && tool.platformTypes[index]) || 'desktop';
+                    return `<span class="platform-badge ${type}">${platform}</span>`;
+                }).join('');
+
+                let buttonClass = 'download-btn';
+                if (tool.category === 'security') buttonClass += ' security';
+                if (tool.category === 'multimedia') buttonClass += ' multimedia';
+
+                return `
+                    <div class="tool-card ${tool.featured ? 'featured' : ''}" data-category="${tool.category}">
+                        ${tool.featured ? '<div class="featured-badge">推荐</div>' : ''}
+                        <div class="tool-header">
+                            <div class="tool-icon" style="background-color: ${tool.iconColor}">
+                                <i class="${tool.icon}"></i>
+                            </div>
+                            <h3 class="tool-title">${tool.name}</h3>
+                            <p class="tool-description">${tool.description}</p>
+                        </div>
+                        <div class="tool-details">
+                            <div class="tool-meta">
+                                <span class="tool-version">版本 ${tool.version}</span>
+                                <span class="tool-date">更新于 ${tool.date || '未知'}</span>
+                            </div>
+                            <div class="tool-platforms">
+                                <div class="platform-title">支持平台</div>
+                                <div class="platform-badges">${platformBadges}</div>
+                            </div>
+                            <div class="tool-download">
+                                <a href="${tool.downloadUrl}" target="_blank" rel="noopener" class="${buttonClass}">
+                                    <i class="fas fa-download"></i> 官方下载
+                                </a>
+                                <span class="tool-size">${tool.size || ''}</span>
+                            </div>
+                        </div>
+                    </div>
+                `;
+            }).join('');
+        }
+
+        loadTools();
+    </script>
+</body>
+</html>

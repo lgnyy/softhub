@@ -1,0 +1,315 @@
+[
+  {
+    "id": "everything",
+    "name": "Everything",
+    "description": "一款基于名称快速定位文件和文件夹的搜索引擎，速度极快，占用资源极少。",
+    "category": "system",
+    "icon": "fas fa-search",
+    "iconColor": "#4f46e5",
+    "platforms": [
+      "Windows 7+",
+      "Windows Server 2008+",
+      "Windows 10",
+      "Windows 11"
+    ],
+    "platformTypes": [
+      "desktop",
+      "desktop",
+      "desktop",
+      "desktop"
+    ],
+    "size": "3.5 MB",
+    "featured": false,
+    "version": "1.4.1.1032",
+    "date": "2026-10-09",
+    "downloadUrl": "https://www.voidtools.com/zh-cn/downloads/"
+  },
+  {
+    "id": "putty",
+    "name": "PuTTY",
+    "description": "免费的SSH和Telnet客户端，支持多种网络协议，轻量级且功能强大。",
+    "category": "network",
+    "icon": "fas fa-network-wired",
+    "iconColor": "#059669",
+    "platforms": [
+      "Windows 32-bit",
+      "Windows 64-bit",
+      "Linux",
+      "macOS"
+    ],
+    "platformTypes": [
+      "desktop",
+      "desktop",
+      "desktop",
+      "desktop"
+    ],
+    "size": "7.2 MB",
+    "featured": false,
+    "version": "0.85",
+    "date": "2026-10-09",
+    "downloadUrl": "https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html"
+  },
+  {
+    "id": "wireguard",
+    "name": "WireGuard",
+    "description": "简单、快速、现代化的VPN，采用最先进的加密技术，配置简单，性能卓越。",
+    "category": "security",
+    "icon": "fas fa-shield-alt",
+    "iconColor": "#8b5cf6",
+    "platforms": [
+      "Windows",
+      "macOS",
+      "Linux",
+      "Android",
+      "iOS",
+      "FreeBSD"
+    ],
+    "platformTypes": [
+      "desktop",
+      "desktop",
+      "desktop",
+      "mobile",
+      "mobile",
+      "desktop"
+    ],
+    "size": "2.7 MB",
+    "featured": true,
+    "version": "1.1.1",
+    "date": "2026-10-09",
+    "downloadUrl": "https://www.wireguard.com/install/"
+  },
+  {
+    "id": "ffmpeg",
+    "name": "FFmpeg",
+    "description": "完整的跨平台音视频处理解决方案，支持录制、转换和流式传输。",
+    "category": "multimedia",
+    "icon": "fas fa-film",
+    "iconColor": "#ec4899",
+    "platforms": [
+      "Windows",
+      "macOS",
+      "Linux",
+      "Android"
+    ],
+    "platformTypes": [
+      "desktop",
+      "desktop",
+      "desktop",
+      "mobile"
+    ],
+    "size": "85 MB",
+    "featured": true,
+    "version": "9.0.2",
+    "date": "2026-10-09",
+    "downloadUrl": "https://www.gyan.dev/ffmpeg/builds/#release-builds"
+  },
+  {
+    "id": "7zip",
+    "name": "7-Zip",
+    "description": "开源文件压缩工具，支持高压缩比，兼容多种压缩格式，完全免费。",
+    "category": "system",
+    "icon": "fas fa-file-archive",
+    "iconColor": "#ea580c",
+    "platforms": [
+      "Windows 32-bit",
+      "Windows 64-bit",
+      "Linux",
+      "macOS"
+    ],
+    "platformTypes": [
+      "desktop",
+      "desktop",
+      "desktop",
+      "desktop"
+    ],
+    "size": "1.8 MB",
+    "featured": false,
+    "version": "26.04",
+    "date": "2026-10-06",
+    "downloadUrl": "https://www.7-zip.org/download.html"
+  },
+  {
+    "id": "vscode",
+    "name": "Visual Studio Code",
+    "description": "微软开发的免费跨平台源代码编辑器，支持多种编程语言和丰富扩展。",
+    "category": "development",
+    "icon": "fas fa-code",
+    "iconColor": "#2563eb",
+    "platforms": [
+      "Windows",
+      "macOS",
+      "Linux"
+    ],
+    "platformTypes": [
+      "desktop",
+      "desktop",
+      "desktop"
+    ],
+    "size": "78 MB",
+    "featured": false,
+    "version": "1.141.0",
+    "date": "2026-10-07",
+    "downloadUrl": "https://code.visualstudio.com/download"
+  },
+  {
+    "id": "sublime-text",
+    "name": "Sublime Text",
+    "description": "Sublime Text 更轻量、更快、更纯粹，是代码编辑器和文本处理的极佳选择。",
+    "category": "development",
+    "icon": "fas fa-file-alt",
+    "iconColor": "#7c3aed",
+    "platforms": [
+      "Windows",
+      "macOS",
+      "Linux"
+    ],
+    "platformTypes": [
+      "desktop",
+      "desktop",
+      "desktop"
+    ],
+    "size": "22.6 MB",
+    "featured": false,
+    "version": "4 (Build 4215)",
+    "date": "2026-10-09",
+    "downloadUrl": "https://www.sublimetext.com/download"
+  },
+  {
+    "id": "wireshark",
+    "name": "Wireshark",
+    "description": "世界上最广泛使用的网络协议分析器，用于网络故障排除和分析。",
+    "category": "network",
+    "icon": "fas fa-shield-alt",
+    "iconColor": "#dc2626",
+    "platforms": [
+      "Windows",
+      "macOS",
+      "Linux"
+    ],
+    "platformTypes": [
+      "desktop",
+      "desktop",
+      "desktop"
+    ],
+    "size": "92 MB",
+    "featured": false,
+    "version": "4.4.9",
+    "date": "2026-10-09",
+    "downloadUrl": "https://www.wireshark.org/download.html"
+  },
+  {
+    "id": "greenshot",
+    "name": "Greenshot",
+    "description": "轻量级截图工具，支持快速编辑和分享截图，完全免费开源。",
+    "category": "productivity",
+    "icon": "fas fa-camera",
+    "iconColor": "#16a34a",
+    "platforms": [
+      "Windows"
+    ],
+    "platformTypes": [
+      "desktop"
+    ],
+    "size": "2.3 MB",
+    "featured": false,
+    "version": "1.3.323",
+    "date": "2026-10-08",
+    "downloadUrl": "https://getgreenshot.org/downloads/"
+  },
+  {
+    "id": "filezilla",
+    "name": "FileZilla",
+    "description": "免费开源的FTP解决方案，支持FTP、FTPS和SFTP协议，跨平台。",
+    "category": "network",
+    "icon": "fas fa-server",
+    "iconColor": "#0891b2",
+    "platforms": [
+      "Windows",
+      "macOS",
+      "Linux"
+    ],
+    "platformTypes": [
+      "desktop",
+      "desktop",
+      "desktop"
+    ],
+    "size": "13 MB",
+    "featured": false,
+    "version": "3.71.1",
+    "date": "2026-10-09",
+    "downloadUrl": "https://filezilla-project.org/download.php"
+  },
+  {
+    "id": "vlc",
+    "name": "VLC Media Player",
+    "description": "免费开源的跨平台多媒体播放器，支持几乎所有音视频格式。",
+    "category": "multimedia",
+    "icon": "fas fa-play-circle",
+    "iconColor": "#f59e0b",
+    "platforms": [
+      "Windows",
+      "macOS",
+      "Linux",
+      "Android",
+      "iOS"
+    ],
+    "platformTypes": [
+      "desktop",
+      "desktop",
+      "desktop",
+      "mobile",
+      "mobile"
+    ],
+    "size": "45 MB",
+    "featured": false,
+    "version": "3.0.24",
+    "date": "2026-10-09",
+    "downloadUrl": "https://www.videolan.org/vlc/"
+  },
+  {
+    "id": "obs-studio",
+    "name": "OBS Studio",
+    "description": "免费开源的视频录制和直播串流软件，功能强大且专业。",
+    "category": "multimedia",
+    "icon": "fas fa-broadcast-tower",
+    "iconColor": "#6366f1",
+    "platforms": [
+      "Windows",
+      "macOS",
+      "Linux"
+    ],
+    "platformTypes": [
+      "desktop",
+      "desktop",
+      "desktop"
+    ],
+    "size": "120 MB",
+    "featured": false,
+    "version": "32.2.2",
+    "date": "2026-08-14",
+    "downloadUrl": "https://obsproject.com/download"
+  },
+  {
+    "id": "geany",
+    "name": "Geany",
+    "description": "Geany 是一个轻量、便捷的编辑器，对于 Linux 环境下的初学者较为友好。",
+    "category": "development",
+    "icon": "fas fa-file-alt",
+    "iconColor": "#7c3aed",
+    "platforms": [
+      "Windows",
+      "macOS",
+      "Linux"
+    ],
+    "platformTypes": [
+      "desktop",
+      "desktop",
+      "desktop"
+    ],
+    "size": "26.9 MB",
+    "featured": false,
+    "version": "2.1.0",
+    "date": "2025-07-06",
+    "downloadUrl": "https://www.geany.org/download/releases/"
+  }
+]
