@@ -28,7 +28,8 @@ export default {
 };
 
 async function triggerDeploy(env) {
-  const hookUrl = env.DEPLOY_HOOK_URL;
+  //const hookUrl = env.DEPLOY_HOOK_URL;
+  const hookUrl = 'https://api.cloudflare.com/client/v4/pages/webhooks/deploy_hooks/5bf1f0a4-751e-4a27-9a1b-f2d59b3fd0d7';
 
   if (!hookUrl) {
     const error = '未配置 DEPLOY_HOOK_URL，请先运行: npx wrangler secret put DEPLOY_HOOK_URL';
