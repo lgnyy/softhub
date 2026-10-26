@@ -1,0 +1,4 @@
+# 头部规则 (Netlify 与 Cloudflare Pages 均支持 _headers 文件)
+/data/versions.json
+  Cache-Control: public, max-age=3600
+  Content-Type: application/json; charset=utf-8

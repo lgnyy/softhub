@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 /**
  * 查询各软件的最新版本并生成 data/versions.json
- * 可在本地运行，也可作为 Netlify 构建步骤运行 (npm run build)
+ * 可在本地运行，也可作为 Netlify / Cloudflare Pages 构建步骤运行 (npm run build)
  */
 import { readFileSync, writeFileSync, mkdirSync, existsSync } from 'node:fs';
 import { dirname, join } from 'node:path';
@@ -23,6 +23,7 @@ function fetchViaCurl(url) {
     const output = execFileSync('curl', [
       '-sL', '--max-time', '15', '-w', '\n%{http_code}',
       '-A', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+      '--tls-max', '1.2',
       url,
     ], { encoding: 'utf-8' });
     const lastNewline = output.lastIndexOf('\n');
@@ -112,7 +113,11 @@ async function resolveVersion(soft) {
   const src = soft.source || {};
   try {
     let result;
-    if (src.type === 'github' && src.repo) {
+    // 没有 source 或 source 为 static: 使用 fallback 版本，不尝试网络请求
+    if (!src.type || src.type === 'static') {
+      if (!src.fallbackVersion) throw new Error('static source missing fallbackVersion');
+      result = { version: src.fallbackVersion, date: null };
+    } else if (src.type === 'github' && src.repo) {
       result = await getGithubVersion(src.repo, src.stripPrefix);
     } else if (src.type === 'url' && src.url && src.versionRegex) {
       result = await getUrlVersion(src);

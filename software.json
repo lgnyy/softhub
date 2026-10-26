@@ -6,8 +6,18 @@
     "category": "system",
     "icon": "fas fa-search",
     "iconColor": "#4f46e5",
-    "platforms": ["Windows 7+", "Windows Server 2008+", "Windows 10", "Windows 11"],
-    "platformTypes": ["desktop", "desktop", "desktop", "desktop"],
+    "platforms": [
+      "Windows 7+",
+      "Windows Server 2008+",
+      "Windows 10",
+      "Windows 11"
+    ],
+    "platformTypes": [
+      "desktop",
+      "desktop",
+      "desktop",
+      "desktop"
+    ],
     "size": "3.5 MB",
     "featured": false,
     "downloadUrl": "https://www.voidtools.com/zh-cn/downloads/",
@@ -25,8 +35,18 @@
     "category": "network",
     "icon": "fas fa-network-wired",
     "iconColor": "#059669",
-    "platforms": ["Windows 32-bit", "Windows 64-bit", "Linux", "macOS"],
-    "platformTypes": ["desktop", "desktop", "desktop", "desktop"],
+    "platforms": [
+      "Windows 32-bit",
+      "Windows 64-bit",
+      "Linux",
+      "macOS"
+    ],
+    "platformTypes": [
+      "desktop",
+      "desktop",
+      "desktop",
+      "desktop"
+    ],
     "size": "7.2 MB",
     "featured": false,
     "downloadUrl": "https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html",
@@ -44,8 +64,22 @@
     "category": "security",
     "icon": "fas fa-shield-alt",
     "iconColor": "#8b5cf6",
-    "platforms": ["Windows", "macOS", "Linux", "Android", "iOS", "FreeBSD"],
-    "platformTypes": ["desktop", "desktop", "desktop", "mobile", "mobile", "desktop"],
+    "platforms": [
+      "Windows",
+      "macOS",
+      "Linux",
+      "Android",
+      "iOS",
+      "FreeBSD"
+    ],
+    "platformTypes": [
+      "desktop",
+      "desktop",
+      "desktop",
+      "mobile",
+      "mobile",
+      "desktop"
+    ],
     "size": "2.7 MB",
     "featured": true,
     "downloadUrl": "https://www.wireguard.com/install/",
@@ -62,8 +96,18 @@
     "category": "multimedia",
     "icon": "fas fa-film",
     "iconColor": "#ec4899",
-    "platforms": ["Windows", "macOS", "Linux", "Android"],
-    "platformTypes": ["desktop", "desktop", "desktop", "mobile"],
+    "platforms": [
+      "Windows",
+      "macOS",
+      "Linux",
+      "Android"
+    ],
+    "platformTypes": [
+      "desktop",
+      "desktop",
+      "desktop",
+      "mobile"
+    ],
     "size": "85 MB",
     "featured": true,
     "downloadUrl": "https://www.gyan.dev/ffmpeg/builds/#release-builds",
@@ -81,8 +125,18 @@
     "category": "system",
     "icon": "fas fa-file-archive",
     "iconColor": "#ea580c",
-    "platforms": ["Windows 32-bit", "Windows 64-bit", "Linux", "macOS"],
-    "platformTypes": ["desktop", "desktop", "desktop", "desktop"],
+    "platforms": [
+      "Windows 32-bit",
+      "Windows 64-bit",
+      "Linux",
+      "macOS"
+    ],
+    "platformTypes": [
+      "desktop",
+      "desktop",
+      "desktop",
+      "desktop"
+    ],
     "size": "1.8 MB",
     "featured": false,
     "downloadUrl": "https://www.7-zip.org/download.html",
@@ -99,8 +153,16 @@
     "category": "development",
     "icon": "fas fa-code",
     "iconColor": "#2563eb",
-    "platforms": ["Windows", "macOS", "Linux"],
-    "platformTypes": ["desktop", "desktop", "desktop"],
+    "platforms": [
+      "Windows",
+      "macOS",
+      "Linux"
+    ],
+    "platformTypes": [
+      "desktop",
+      "desktop",
+      "desktop"
+    ],
     "size": "78 MB",
     "featured": false,
     "downloadUrl": "https://code.visualstudio.com/download",
@@ -117,8 +179,16 @@
     "category": "development",
     "icon": "fas fa-file-alt",
     "iconColor": "#7c3aed",
-    "platforms": ["Windows", "macOS", "Linux"],
-    "platformTypes": ["desktop", "desktop", "desktop"],
+    "platforms": [
+      "Windows",
+      "macOS",
+      "Linux"
+    ],
+    "platformTypes": [
+      "desktop",
+      "desktop",
+      "desktop"
+    ],
     "size": "22.6 MB",
     "featured": false,
     "downloadUrl": "https://www.sublimetext.com/download",
@@ -137,8 +207,16 @@
     "category": "network",
     "icon": "fas fa-shield-alt",
     "iconColor": "#dc2626",
-    "platforms": ["Windows", "macOS", "Linux"],
-    "platformTypes": ["desktop", "desktop", "desktop"],
+    "platforms": [
+      "Windows",
+      "macOS",
+      "Linux"
+    ],
+    "platformTypes": [
+      "desktop",
+      "desktop",
+      "desktop"
+    ],
     "size": "92 MB",
     "featured": false,
     "downloadUrl": "https://www.wireshark.org/download.html",
@@ -156,8 +234,12 @@
     "category": "productivity",
     "icon": "fas fa-camera",
     "iconColor": "#16a34a",
-    "platforms": ["Windows"],
-    "platformTypes": ["desktop"],
+    "platforms": [
+      "Windows"
+    ],
+    "platformTypes": [
+      "desktop"
+    ],
     "size": "2.3 MB",
     "featured": false,
     "downloadUrl": "https://getgreenshot.org/downloads/",
@@ -174,8 +256,16 @@
     "category": "network",
     "icon": "fas fa-server",
     "iconColor": "#0891b2",
-    "platforms": ["Windows", "macOS", "Linux"],
-    "platformTypes": ["desktop", "desktop", "desktop"],
+    "platforms": [
+      "Windows",
+      "macOS",
+      "Linux"
+    ],
+    "platformTypes": [
+      "desktop",
+      "desktop",
+      "desktop"
+    ],
     "size": "13 MB",
     "featured": false,
     "downloadUrl": "https://filezilla-project.org/download.php",
@@ -193,8 +283,20 @@
     "category": "multimedia",
     "icon": "fas fa-play-circle",
     "iconColor": "#f59e0b",
-    "platforms": ["Windows", "macOS", "Linux", "Android", "iOS"],
-    "platformTypes": ["desktop", "desktop", "desktop", "mobile", "mobile"],
+    "platforms": [
+      "Windows",
+      "macOS",
+      "Linux",
+      "Android",
+      "iOS"
+    ],
+    "platformTypes": [
+      "desktop",
+      "desktop",
+      "desktop",
+      "mobile",
+      "mobile"
+    ],
     "size": "45 MB",
     "featured": false,
     "downloadUrl": "https://www.videolan.org/vlc/",
@@ -212,8 +314,16 @@
     "category": "multimedia",
     "icon": "fas fa-broadcast-tower",
     "iconColor": "#6366f1",
-    "platforms": ["Windows", "macOS", "Linux"],
-    "platformTypes": ["desktop", "desktop", "desktop"],
+    "platforms": [
+      "Windows",
+      "macOS",
+      "Linux"
+    ],
+    "platformTypes": [
+      "desktop",
+      "desktop",
+      "desktop"
+    ],
     "size": "120 MB",
     "featured": false,
     "downloadUrl": "https://obsproject.com/download",
@@ -230,8 +340,16 @@
     "category": "development",
     "icon": "fas fa-file-alt",
     "iconColor": "#7c3aed",
-    "platforms": ["Windows", "macOS", "Linux"],
-    "platformTypes": ["desktop", "desktop", "desktop"],
+    "platforms": [
+      "Windows",
+      "macOS",
+      "Linux"
+    ],
+    "platformTypes": [
+      "desktop",
+      "desktop",
+      "desktop"
+    ],
     "size": "26.9 MB",
     "featured": false,
     "downloadUrl": "https://www.geany.org/download/releases/",
@@ -239,6 +357,1018 @@
       "type": "github",
       "repo": "geany/geany",
       "fallbackVersion": "2.1.0"
+    }
+  },
+  {
+    "id": "dufs",
+    "name": "Dufs",
+    "description": "一款纯 Rust 编写的功能强大的文件服务器，支持 HTTPS、上传下载、搜索、zip 打包下载。",
+    "category": "network",
+    "icon": "fas fa-folder-open",
+    "iconColor": "#f59e0b",
+    "platforms": [
+      "Linux",
+      "Windows",
+      "macOS",
+      "Android",
+      "iOS"
+    ],
+    "platformTypes": [
+      "desktop",
+      "desktop",
+      "desktop",
+      "mobile",
+      "mobile"
+    ],
+    "size": "静态单文件",
+    "featured": false,
+    "downloadUrl": "https://github.com/sigoden/dufs/releases",
+    "source": {
+      "type": "github",
+      "repo": "sigoden/dufs",
+      "fallbackVersion": "0.47.0"
+    }
+  },
+  {
+    "id": "localsend",
+    "name": "LocalSend",
+    "description": "免费开源的跨平台局域网文件传输工具，基于 mDNS 自动发现，无需互联网。",
+    "category": "network",
+    "icon": "fas fa-location-arrow",
+    "iconColor": "#10b981",
+    "platforms": [
+      "Windows",
+      "macOS",
+      "Linux",
+      "Android",
+      "iOS"
+    ],
+    "platformTypes": [
+      "desktop",
+      "desktop",
+      "desktop",
+      "mobile",
+      "mobile"
+    ],
+    "size": "约 50 MB",
+    "featured": true,
+    "downloadUrl": "https://github.com/localsend/localsend/releases",
+    "source": {
+      "type": "github",
+      "repo": "localsend/localsend",
+      "fallbackVersion": "1.18.2"
+    }
+  },
+  {
+    "id": "filebrowser",
+    "name": "File Browser",
+    "description": "基于 Go 的单文件 Web 文件管理器，支持上传下载、创建编辑、分享、用户权限。",
+    "category": "network",
+    "icon": "fas fa-folder-open",
+    "iconColor": "#0ea5e9",
+    "platforms": [
+      "Linux",
+      "Windows",
+      "macOS",
+      "Docker"
+    ],
+    "platformTypes": [
+      "desktop",
+      "desktop",
+      "desktop",
+      "desktop"
+    ],
+    "size": "约 15 MB",
+    "featured": false,
+    "downloadUrl": "https://github.com/filebrowser/filebrowser/releases",
+    "source": {
+      "type": "github",
+      "repo": "filebrowser/filebrowser",
+      "fallbackVersion": "2.63.23"
+    }
+  },
+  {
+    "id": "caddy",
+    "name": "Caddy",
+    "description": "现代化 HTTP/3 Web 服务器和反向代理，自动 HTTPS，配置简洁，单文件部署。",
+    "category": "network",
+    "icon": "fas fa-globe",
+    "iconColor": "#e11d48",
+    "platforms": [
+      "Linux",
+      "Windows",
+      "macOS",
+      "Docker"
+    ],
+    "platformTypes": [
+      "desktop",
+      "desktop",
+      "desktop",
+      "desktop"
+    ],
+    "size": "约 20 MB",
+    "featured": true,
+    "downloadUrl": "https://github.com/caddyserver/caddy/releases",
+    "source": {
+      "type": "github",
+      "repo": "caddyserver/caddy",
+      "fallbackVersion": "2.11.7"
+    }
+  },
+  {
+    "id": "livekit",
+    "name": "LiveKit",
+    "description": "开源的实时音视频/数据传输服务器，基于 WebRTC，支持 SFU 架构和边缘节点。",
+    "category": "multimedia",
+    "icon": "fas fa-circle-play",
+    "iconColor": "#6366f1",
+    "platforms": [
+      "Linux",
+      "Docker",
+      "Kubernetes"
+    ],
+    "platformTypes": [
+      "desktop",
+      "desktop",
+      "desktop"
+    ],
+    "size": "约 30 MB",
+    "featured": false,
+    "downloadUrl": "https://github.com/livekit/livekit/releases",
+    "source": {
+      "type": "github",
+      "repo": "livekit/livekit",
+      "fallbackVersion": "1.13.11"
+    }
+  },
+  {
+    "id": "frp",
+    "name": "frp",
+    "description": "高性能反向代理工具，支持 TCP/UDP/HTTP/HTTPS 穿透，内网穿透神器。",
+    "category": "network",
+    "icon": "fas fa-arrows-to-circle",
+    "iconColor": "#dc2626",
+    "platforms": [
+      "Linux",
+      "Windows",
+      "macOS",
+      "FreeBSD",
+      "Android"
+    ],
+    "platformTypes": [
+      "desktop",
+      "desktop",
+      "desktop",
+      "desktop",
+      "mobile"
+    ],
+    "size": "约 10 MB",
+    "featured": true,
+    "downloadUrl": "https://github.com/fatedier/frp/releases",
+    "source": {
+      "type": "github",
+      "repo": "fatedier/frp",
+      "fallbackVersion": "0.71.1"
+    }
+  },
+  {
+    "id": "croc",
+    "name": "croc",
+    "description": "简单安全的跨平台文件传输工具，通过中继服务器实现点对点加密传输。",
+    "category": "network",
+    "icon": "fas fa-share-nodes",
+    "iconColor": "#f97316",
+    "platforms": [
+      "Windows",
+      "macOS",
+      "Linux",
+      "Android",
+      "iOS"
+    ],
+    "platformTypes": [
+      "desktop",
+      "desktop",
+      "desktop",
+      "mobile",
+      "mobile"
+    ],
+    "size": "约 15 MB",
+    "featured": false,
+    "downloadUrl": "https://github.com/schollz/croc/releases",
+    "source": {
+      "type": "github",
+      "repo": "schollz/croc",
+      "fallbackVersion": "11.5.5"
+    }
+  },
+  {
+    "id": "syncthing",
+    "name": "Syncthing",
+    "description": "开源跨平台持续文件同步工具，无服务器架构，支持冲突检测和版本控制。",
+    "category": "network",
+    "icon": "fas fa-arrows-left-right",
+    "iconColor": "#059669",
+    "platforms": [
+      "Windows",
+      "macOS",
+      "Linux",
+      "Android",
+      "iOS",
+      "FreeBSD"
+    ],
+    "platformTypes": [
+      "desktop",
+      "desktop",
+      "desktop",
+      "mobile",
+      "mobile",
+      "desktop"
+    ],
+    "size": "约 20 MB",
+    "featured": true,
+    "downloadUrl": "https://github.com/syncthing/syncthing/releases",
+    "source": {
+      "type": "github",
+      "repo": "syncthing/syncthing",
+      "fallbackVersion": "2.1.7"
+    }
+  },
+  {
+    "id": "webdav",
+    "name": "WebDAV",
+    "description": "轻量级 Go 编写的 WebDAV 服务器，支持多用户、虚拟主机和 HTTPS。",
+    "category": "network",
+    "icon": "fas fa-file-tree",
+    "iconColor": "#a855f7",
+    "platforms": [
+      "Linux",
+      "Windows",
+      "macOS"
+    ],
+    "platformTypes": [
+      "desktop",
+      "desktop",
+      "desktop"
+    ],
+    "size": "约 10 MB",
+    "featured": false,
+    "downloadUrl": "https://github.com/hacdias/webdav/releases",
+    "source": {
+      "type": "github",
+      "repo": "hacdias/webdav",
+      "fallbackVersion": "5.17.2"
+    }
+  },
+  {
+    "id": "xray-core",
+    "name": "Xray Core",
+    "description": "V2Ray 的下一代核心，支持 VMess/VLESS/Trojan/Shadowsocks 等协议，功能强大。",
+    "category": "security",
+    "icon": "fas fa-user-secret",
+    "iconColor": "#0891b2",
+    "platforms": [
+      "Windows",
+      "macOS",
+      "Linux",
+      "Android",
+      "iOS"
+    ],
+    "platformTypes": [
+      "desktop",
+      "desktop",
+      "desktop",
+      "mobile",
+      "mobile"
+    ],
+    "size": "约 30 MB",
+    "featured": true,
+    "downloadUrl": "https://github.com/XTLS/Xray-core/releases",
+    "source": {
+      "type": "github",
+      "repo": "XTLS/Xray-core",
+      "fallbackVersion": "26.10.21"
+    }
+  },
+  {
+    "id": "coturn",
+    "name": "coturn",
+    "description": "开源的 TURN/STUN 服务器，为 WebRTC、游戏等场景提供 NAT 穿透中继服务。",
+    "category": "network",
+    "icon": "fas fa-plug",
+    "iconColor": "#7c3aed",
+    "platforms": [
+      "Linux",
+      "FreeBSD",
+      "macOS",
+      "Windows (实验性)"
+    ],
+    "platformTypes": [
+      "desktop",
+      "desktop",
+      "desktop",
+      "desktop"
+    ],
+    "size": "源码编译",
+    "featured": false,
+    "downloadUrl": "https://github.com/coturn/coturn",
+    "source": {
+      "type": "github",
+      "repo": "coturn/coturn",
+      "stripPrefix": "docker/",
+      "fallbackVersion": "4.18.0-r0"
+    }
+  },
+  {
+    "id": "easytier",
+    "name": "EasyTier",
+    "description": "轻量级 VPN 组网工具，类似 ZeroTier/Tailscale，支持 P2P 和中继混合组网。",
+    "category": "security",
+    "icon": "fas fa-circle-nodes",
+    "iconColor": "#22c55e",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS",
+      "Docker",
+      "OpenWrt"
+    ],
+    "platformTypes": [
+      "desktop",
+      "desktop",
+      "desktop",
+      "desktop",
+      "desktop"
+    ],
+    "size": "约 5 MB",
+    "featured": false,
+    "downloadUrl": "https://github.com/EasyTier/EasyTier/releases",
+    "source": {
+      "type": "github",
+      "repo": "EasyTier/EasyTier",
+      "fallbackVersion": "2.6.4"
+    }
+  },
+  {
+    "id": "bore",
+    "name": "bore",
+    "description": "极简的内网穿透工具，只需一条命令即可暴露本地端口到公网。",
+    "category": "network",
+    "icon": "fas fa-terminal",
+    "iconColor": "#16a34a",
+    "platforms": [
+      "Linux",
+      "macOS",
+      "Windows"
+    ],
+    "platformTypes": [
+      "desktop",
+      "desktop",
+      "desktop"
+    ],
+    "size": "约 10 MB",
+    "featured": false,
+    "downloadUrl": "https://github.com/ekzhang/bore/releases",
+    "source": {
+      "type": "github",
+      "repo": "ekzhang/bore",
+      "fallbackVersion": "0.6.0"
+    }
+  },
+  {
+    "id": "rathole",
+    "name": "rathole",
+    "description": "高性能、轻量级的内网穿透工具，单文件二进制，基于 Rust 编写。",
+    "category": "network",
+    "icon": "fas fa-terminal",
+    "iconColor": "#3b82f6",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS",
+      "OpenWrt"
+    ],
+    "platformTypes": [
+      "desktop",
+      "desktop",
+      "desktop",
+      "desktop"
+    ],
+    "size": "约 5 MB",
+    "featured": false,
+    "downloadUrl": "https://github.com/rathole-org/rathole/releases",
+    "source": {
+      "type": "github",
+      "repo": "rathole-org/rathole",
+      "fallbackVersion": "0.5.0"
+    }
+  },
+  {
+    "id": "ttyd",
+    "name": "ttyd",
+    "description": "将命令行工具暴露为 Web 服务，浏览器即可访问终端，支持 HTTPS 和鉴权。",
+    "category": "network",
+    "icon": "fas fa-terminal",
+    "iconColor": "#14b8a6",
+    "platforms": [
+      "Linux",
+      "Windows",
+      "macOS",
+      "OpenWrt",
+      "Android"
+    ],
+    "platformTypes": [
+      "desktop",
+      "desktop",
+      "desktop",
+      "desktop",
+      "mobile"
+    ],
+    "size": "约 2 MB",
+    "featured": false,
+    "downloadUrl": "https://github.com/tsl0922/ttyd/releases",
+    "source": {
+      "type": "github",
+      "repo": "tsl0922/ttyd",
+      "fallbackVersion": "1.7.7"
+    }
+  },
+  {
+    "id": "go2rtc",
+    "name": "go2rtc",
+    "description": "开源的 RTSP/RTMP/WebRTC/ONVIF 流媒体服务器，智能家居视频中枢。",
+    "category": "multimedia",
+    "icon": "fas fa-display",
+    "iconColor": "#06b6d4",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS",
+      "Docker"
+    ],
+    "platformTypes": [
+      "desktop",
+      "desktop",
+      "desktop",
+      "desktop"
+    ],
+    "size": "约 10 MB",
+    "featured": false,
+    "downloadUrl": "https://github.com/AlexxIT/go2rtc/releases",
+    "source": {
+      "type": "github",
+      "repo": "AlexxIT/go2rtc",
+      "fallbackVersion": "1.9.15"
+    }
+  },
+  {
+    "id": "tun2socks",
+    "name": "tun2socks",
+    "description": "将 TUN 网卡流量转发到 SOCKS 代理，实现全局代理的利器。",
+    "category": "security",
+    "icon": "fas fa-arrows-to-circle",
+    "iconColor": "#8b5cf6",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS",
+      "Android"
+    ],
+    "platformTypes": [
+      "desktop",
+      "desktop",
+      "desktop",
+      "mobile"
+    ],
+    "size": "约 5 MB",
+    "featured": false,
+    "downloadUrl": "https://github.com/xjasonlyu/tun2socks/releases",
+    "source": {
+      "type": "github",
+      "repo": "xjasonlyu/tun2socks",
+      "fallbackVersion": "2.7.0"
+    }
+  },
+  {
+    "id": "socat",
+    "name": "socat",
+    "description": "功能强大的网络中继工具，堪称 Netcat 的超级版，支持 SSL、代理、多协议。",
+    "category": "network",
+    "icon": "fas fa-network-wired",
+    "iconColor": "#64748b",
+    "platforms": [
+      "Linux",
+      "macOS",
+      "FreeBSD",
+      "Windows (Cygwin)"
+    ],
+    "platformTypes": [
+      "desktop",
+      "desktop",
+      "desktop",
+      "desktop"
+    ],
+    "size": "源码编译",
+    "featured": false,
+    "downloadUrl": "http://www.dest-unreach.org/socat/",
+    "source": {
+      "type": "url",
+      "url": "http://www.dest-unreach.org/socat/",
+      "versionRegex": "socat-([\\d.]+)\\.tar\\.gz",
+      "fallbackVersion": "1.8.1.3"
+    }
+  },
+  {
+    "id": "tftp-hpa",
+    "name": "tftp-hpa",
+    "description": "开放的 TFTP 服务器和客户端，广泛用于网络设备固件升级和 PXE 引导。",
+    "category": "network",
+    "icon": "fas fa-network-wired",
+    "iconColor": "#475569",
+    "platforms": [
+      "Linux",
+      "FreeBSD",
+      "macOS"
+    ],
+    "platformTypes": [
+      "desktop",
+      "desktop",
+      "desktop"
+    ],
+    "size": "源码编译",
+    "featured": false,
+    "downloadUrl": "https://git.kernel.org/pub/scm/network/tftp/tftp-hpa.git",
+    "source": {
+      "type": "static",
+      "fallbackVersion": "7.2"
+    }
+  },
+  {
+    "id": "atftp",
+    "name": "atftp",
+    "description": "流行的 TFTP 服务器和客户端实现，支持多线程和详细日志。",
+    "category": "network",
+    "icon": "fas fa-network-wired",
+    "iconColor": "#57534e",
+    "platforms": [
+      "Linux",
+      "FreeBSD",
+      "Windows (Cygwin)"
+    ],
+    "platformTypes": [
+      "desktop",
+      "desktop",
+      "desktop"
+    ],
+    "size": "源码编译",
+    "featured": false,
+    "downloadUrl": "https://github.com/madmartin/atftp",
+    "source": {
+      "type": "github",
+      "repo": "madmartin/atftp",
+      "fallbackVersion": "0.8.1"
+    }
+  },
+  {
+    "id": "rustdesk",
+    "name": "RustDesk",
+    "description": "开源远程桌面软件，无需自建服务器即可实现点对点远程控制。",
+    "category": "network",
+    "icon": "fas fa-display",
+    "iconColor": "#c94a15",
+    "platforms": [
+      "Windows",
+      "macOS",
+      "Linux",
+      "Android",
+      "iOS"
+    ],
+    "platformTypes": [
+      "desktop",
+      "desktop",
+      "desktop",
+      "mobile",
+      "mobile"
+    ],
+    "size": "约 30 MB",
+    "featured": true,
+    "downloadUrl": "https://github.com/rustdesk/rustdesk/releases",
+    "source": {
+      "type": "github",
+      "repo": "rustdesk/rustdesk",
+      "fallbackVersion": "1.5.0"
+    }
+  },
+  {
+    "id": "immich",
+    "name": "Immich",
+    "description": "自建照片和视频备份解决方案，支持 AI 人脸检测、地图、搜索，Google Photos 替代。",
+    "category": "multimedia",
+    "icon": "fas fa-photo-film",
+    "iconColor": "#7c2d12",
+    "platforms": [
+      "Docker",
+      "Linux",
+      "iOS",
+      "Android"
+    ],
+    "platformTypes": [
+      "desktop",
+      "desktop",
+      "mobile",
+      "mobile"
+    ],
+    "size": "Docker 部署",
+    "featured": true,
+    "downloadUrl": "https://github.com/immich-app/immich/releases",
+    "source": {
+      "type": "github",
+      "repo": "immich-app/immich",
+      "fallbackVersion": "3.3.5"
+    }
+  },
+  {
+    "id": "plain-app",
+    "name": "Plain App",
+    "description": "现代简约的跨平台笔记应用，支持 Markdown、双链笔记、加密同步。",
+    "category": "productivity",
+    "icon": "fas fa-mobile-screen",
+    "iconColor": "#334155",
+    "platforms": [
+      "Windows",
+      "macOS",
+      "Linux",
+      "iOS",
+      "Android"
+    ],
+    "platformTypes": [
+      "desktop",
+      "desktop",
+      "desktop",
+      "mobile",
+      "mobile"
+    ],
+    "size": "约 100 MB",
+    "featured": false,
+    "downloadUrl": "https://github.com/plainhub/plain-app/releases",
+    "source": {
+      "type": "github",
+      "repo": "plainhub/plain-app",
+      "fallbackVersion": "3.3.25"
+    }
+  },
+  {
+    "id": "rsaver",
+    "name": "R.saver",
+    "description": "免费的数据恢复工具，支持 NTFS/FAT/exFAT/HFS+ 等文件系统，俄罗斯实验室出品。",
+    "category": "system",
+    "icon": "fas fa-hard-drive",
+    "iconColor": "#be123c",
+    "platforms": [
+      "Windows XP+",
+      "Windows 7",
+      "Windows 10",
+      "Windows 11"
+    ],
+    "platformTypes": [
+      "desktop",
+      "desktop",
+      "desktop",
+      "desktop"
+    ],
+    "size": "约 15 MB",
+    "featured": false,
+    "downloadUrl": "https://rlab.ru/tools/rsaver.html",
+    "source": {
+      "type": "static",
+      "fallbackVersion": "3.x"
+    }
+  },
+  {
+    "id": "winmerge",
+    "name": "WinMerge",
+    "description": "Windows 下优秀的免费文件比较和合并工具，支持文本和图片可视化对比。",
+    "category": "development",
+    "icon": "fas fa-code-compare",
+    "iconColor": "#2563eb",
+    "platforms": [
+      "Windows"
+    ],
+    "platformTypes": [
+      "desktop"
+    ],
+    "size": "约 15 MB",
+    "featured": false,
+    "downloadUrl": "https://winmerge.org/downloads/",
+    "source": {
+      "type": "github",
+      "repo": "WinMerge/winmerge",
+      "fallbackVersion": "2.16.58.2"
+    }
+  },
+  {
+    "id": "platform-tools",
+    "name": "Android Platform-Tools",
+    "description": "Android 调试工具包，包含 adb、fastboot 等命令行工具，开发刷机必备。",
+    "category": "development",
+    "icon": "fas fa-terminal",
+    "iconColor": "#3ddc84",
+    "platforms": [
+      "Windows",
+      "macOS",
+      "Linux"
+    ],
+    "platformTypes": [
+      "desktop",
+      "desktop",
+      "desktop"
+    ],
+    "size": "约 5 MB",
+    "featured": true,
+    "downloadUrl": "https://developer.android.com/tools/releases/platform-tools",
+    "source": {
+      "type": "url",
+      "url": "https://dl.google.com/android/repository/repository2-3.xml",
+      "versionRegex": "platform-tools_r([\\d.]+)-win",
+      "fallbackVersion": "37.0.1"
+    }
+  },
+  {
+    "id": "dependencies",
+    "name": "Dependencies",
+    "description": "现代化的 Windows EXE/DLL 依赖分析工具，替代老旧的 Dependency Walker。",
+    "category": "development",
+    "icon": "fas fa-diagram-project",
+    "iconColor": "#6366f1",
+    "platforms": [
+      "Windows 7 SP1+",
+      "Windows 10",
+      "Windows 11"
+    ],
+    "platformTypes": [
+      "desktop",
+      "desktop",
+      "desktop"
+    ],
+    "size": "约 10 MB",
+    "featured": false,
+    "downloadUrl": "https://github.com/lucasg/Dependencies/releases",
+    "source": {
+      "type": "github",
+      "repo": "lucasg/Dependencies",
+      "fallbackVersion": "1.11.1"
+    }
+  },
+  {
+    "id": "llcom",
+    "name": "LLCOM",
+    "description": "国产轻量级串口调试工具，界面简洁、功能齐全，支持波形显示和脚本。",
+    "category": "development",
+    "icon": "fas fa-terminal",
+    "iconColor": "#06b6d4",
+    "platforms": [
+      "Windows",
+      "macOS",
+      "Linux"
+    ],
+    "platformTypes": [
+      "desktop",
+      "desktop",
+      "desktop"
+    ],
+    "size": "约 50 MB",
+    "featured": false,
+    "downloadUrl": "https://github.com/chenxuuu/llcom/releases",
+    "source": {
+      "type": "github",
+      "repo": "chenxuuu/llcom",
+      "fallbackVersion": "1.1.3.9"
+    }
+  },
+  {
+    "id": "mqttx",
+    "name": "MQTTX",
+    "description": "优雅的跨平台 MQTT 客户端，支持多主题订阅、消息格式化和脚本测试。",
+    "category": "development",
+    "icon": "fas fa-comments",
+    "iconColor": "#0ea5e9",
+    "platforms": [
+      "Windows",
+      "macOS",
+      "Linux"
+    ],
+    "platformTypes": [
+      "desktop",
+      "desktop",
+      "desktop"
+    ],
+    "size": "约 100 MB",
+    "featured": false,
+    "downloadUrl": "https://github.com/emqx/MQTTX/releases",
+    "source": {
+      "type": "github",
+      "repo": "emqx/MQTTX",
+      "fallbackVersion": "1.13.2"
+    }
+  },
+  {
+    "id": "windterm",
+    "name": "WindTerm",
+    "description": "功能强大的跨平台终端工具，支持 SSH/Telnet/Shell/SFTP，内置 X Server 和 VNC。",
+    "category": "network",
+    "icon": "fas fa-terminal",
+    "iconColor": "#4f46e5",
+    "platforms": [
+      "Windows",
+      "macOS",
+      "Linux"
+    ],
+    "platformTypes": [
+      "desktop",
+      "desktop",
+      "desktop"
+    ],
+    "size": "约 100 MB",
+    "featured": true,
+    "downloadUrl": "https://github.com/kingToolbox/WindTerm/releases",
+    "source": {
+      "type": "github",
+      "repo": "kingToolbox/WindTerm",
+      "fallbackVersion": "2.7.0"
+    }
+  },
+  {
+    "id": "asn1editor",
+    "name": "ASN.1 Editor",
+    "description": "专业的 ASN.1 BER/CER/DER 编码编辑器和查看器，适合 PKI/证书开发调试。",
+    "category": "development",
+    "icon": "fas fa-file-code",
+    "iconColor": "#7c3aed",
+    "platforms": [
+      "Windows"
+    ],
+    "platformTypes": [
+      "desktop"
+    ],
+    "size": "约 1 MB",
+    "featured": false,
+    "downloadUrl": "https://github.com/Crypt32/Asn1Editor.WPF/releases",
+    "source": {
+      "type": "github",
+      "repo": "Crypt32/Asn1Editor.WPF",
+      "fallbackVersion": "26.7.3"
+    }
+  },
+  {
+    "id": "sqlite-tools",
+    "name": "SQLite Tools",
+    "description": "SQLite 官方命令行工具包，包含 sqlite3 外壳、sqldiff、sqlite3_analyzer 等。",
+    "category": "development",
+    "icon": "fas fa-database",
+    "iconColor": "#0891b2",
+    "platforms": [
+      "Windows",
+      "macOS",
+      "Linux",
+      "Android"
+    ],
+    "platformTypes": [
+      "desktop",
+      "desktop",
+      "desktop",
+      "mobile"
+    ],
+    "size": "约 7 MB",
+    "featured": true,
+    "downloadUrl": "https://www.sqlite.org/download.html",
+    "source": {
+      "type": "url",
+      "url": "https://www.sqlite.org/download.html",
+      "versionRegex": "PRODUCT,(\\d[\\d.]+),[^,]*sqlite-tools-win-x64",
+      "fallbackVersion": "3.54.1"
+    }
+  },
+  {
+    "id": "deskreen",
+    "name": "Deskreen",
+    "description": "让任何设备浏览器变成第二块屏幕，支持实时视频、共享窗口或整屏。",
+    "category": "multimedia",
+    "icon": "fas fa-display",
+    "iconColor": "#f97316",
+    "platforms": [
+      "Windows",
+      "macOS",
+      "Linux"
+    ],
+    "platformTypes": [
+      "desktop",
+      "desktop",
+      "desktop"
+    ],
+    "size": "约 150 MB",
+    "featured": false,
+    "downloadUrl": "https://deskreen.com/",
+    "source": {
+      "type": "github",
+      "repo": "pavlobu/deskreen",
+      "fallbackVersion": "3.2.16"
+    }
+  },
+  {
+    "id": "greepfish-icon-editor",
+    "name": "Greenfish Icon Editor Pro",
+    "description": "专业的图标和光标编辑工具，支持图层、动画和批量格式转换。",
+    "category": "development",
+    "icon": "fas fa-feather",
+    "iconColor": "#16a34a",
+    "platforms": [
+      "Windows"
+    ],
+    "platformTypes": [
+      "desktop"
+    ],
+    "size": "约 45 MB",
+    "featured": false,
+    "downloadUrl": "https://greenfishsoftware.org/gfie.php",
+    "source": {
+      "type": "url",
+      "url": "https://greenfishsoftware.org/gfie.php",
+      "versionRegex": "gfie_setup_([\\d.]+)",
+      "fallbackVersion": "4.5"
+    }
+  },
+  {
+    "id": "jd-gui",
+    "name": "JD-GUI",
+    "description": "独立的 Java .class 文件反编译器，支持 JDK 8-21，界面简洁直观。",
+    "category": "development",
+    "icon": "fas fa-file-code",
+    "iconColor": "#d97706",
+    "platforms": [
+      "Windows",
+      "macOS",
+      "Linux (Java)"
+    ],
+    "platformTypes": [
+      "desktop",
+      "desktop",
+      "desktop"
+    ],
+    "size": "约 20 MB",
+    "featured": false,
+    "downloadUrl": "https://github.com/java-decompiler/jd-gui/releases",
+    "source": {
+      "type": "github",
+      "repo": "java-decompiler/jd-gui",
+      "fallbackVersion": "1.6.6"
+    }
+  },
+  {
+    "id": "lapce",
+    "name": "Lapce",
+    "description": "用 Rust 编写的极速代码编辑器，原生支持 LSP、WASI、远程开发和 Vim 模式。",
+    "category": "development",
+    "icon": "fas fa-feather",
+    "iconColor": "#0369a1",
+    "platforms": [
+      "Windows",
+      "macOS",
+      "Linux"
+    ],
+    "platformTypes": [
+      "desktop",
+      "desktop",
+      "desktop"
+    ],
+    "size": "约 100 MB",
+    "featured": true,
+    "downloadUrl": "https://github.com/lapce/lapce/releases",
+    "source": {
+      "type": "github",
+      "repo": "lapce/lapce",
+      "fallbackVersion": "0.4.6"
+    }
+  },
+  {
+    "id": "potplayer",
+    "name": "PotPlayer",
+    "description": "韩国 Daum 出品的全能视频播放器，支持丰富格式和 GPU 加速，播放画质极佳。",
+    "category": "multimedia",
+    "icon": "fas fa-circle-play",
+    "iconColor": "#fbbf24",
+    "platforms": [
+      "Windows"
+    ],
+    "platformTypes": [
+      "desktop"
+    ],
+    "size": "约 25 MB",
+    "featured": true,
+    "downloadUrl": "https://potplayer.tv/",
+    "source": {
+      "type": "url",
+      "url": "https://community.chocolatey.org/api/v2/Packages()?$filter=Id%20eq%20%27potplayer%27%20and%20IsLatestVersion",
+      "versionRegex": "Version='([\\d.]+)'",
+      "fallbackVersion": "26.10.21"
     }
   }
 ]

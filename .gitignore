@@ -1,5 +1,6 @@
 node_modules/
 .netlify/
+.wrangler/
 .DS_Store
 *.log
 ref.html

@@ -1,0 +1,9 @@
+# Cloudflare Worker 定时任务: 每周触发 Cloudflare Pages Deploy Hook 以更新软件版本
+# Pages 本身不支持定时构建，通过独立的 Cron Worker 实现与 Netlify Scheduled Function 等价的功能
+name = "tools-hub-scheduled-update"
+main = "src/index.js"
+compatibility_date = "2026-10-01"
+
+# 每周一 02:00 UTC 自动触发 (与 Netlify 版保持一致)
+[triggers]
+crons = ["0 2 * * 1"]
