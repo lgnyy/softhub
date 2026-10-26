@@ -4,7 +4,7 @@
 //   1. Cloudflare Dashboard -> Workers & Pages -> Pages 项目 -> Settings -> Builds & deployments
 //      -> Deploy hooks -> Add deploy hook, 名称可填 "weekly-version-update", 分支选 main, 复制 URL
 //   2. 配置密钥 (在本目录执行):
-//        npx wrangler secret put DEPLOY_HOOK_URL
+//        npx wrangler pages secret put DEPLOY_HOOK_URL --project-name xisoft
 //      粘贴上一步复制的 Deploy Hook URL
 //   3. 部署 Worker (在本目录执行): npx wrangler deploy
 //
@@ -28,8 +28,7 @@ export default {
 };
 
 async function triggerDeploy(env) {
-  //const hookUrl = env.DEPLOY_HOOK_URL;
-  const hookUrl = 'https://api.cloudflare.com/client/v4/pages/webhooks/deploy_hooks/5bf1f0a4-751e-4a27-9a1b-f2d59b3fd0d7';
+  const hookUrl = env.DEPLOY_HOOK_URL;
 
   if (!hookUrl) {
     const error = '未配置 DEPLOY_HOOK_URL，请先运行: npx wrangler secret put DEPLOY_HOOK_URL';

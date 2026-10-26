@@ -4,6 +4,6 @@ name = "tools-hub-scheduled-update"
 main = "src/index.js"
 compatibility_date = "2026-10-01"
 
-# 每周一 02:00 UTC 自动触发 (与 Netlify 版保持一致)
+# 每周一 18:00 UTC+8 自动触发 (与 Netlify 版保持一致)
 [triggers]
-crons = ["0 2 * * 1"]
+crons = ["0 18 * * 1"]
