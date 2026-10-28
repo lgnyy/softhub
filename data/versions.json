@@ -21,7 +21,7 @@
     "size": "3.5 MB",
     "featured": false,
     "version": "1.4.1.1032",
-    "date": "2026-10-26",
+    "date": "2026-10-28",
     "downloadUrl": "https://www.voidtools.com/zh-cn/downloads/"
   },
   {
@@ -46,7 +46,7 @@
     "size": "7.2 MB",
     "featured": false,
     "version": "0.85",
-    "date": "2026-10-26",
+    "date": "2026-10-28",
     "downloadUrl": "https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html"
   },
   {
@@ -75,7 +75,7 @@
     "size": "2.7 MB",
     "featured": true,
     "version": "0.5.3",
-    "date": "2026-10-26",
+    "date": "2026-10-28",
     "downloadUrl": "https://www.wireguard.com/install/"
   },
   {
@@ -100,7 +100,7 @@
     "size": "85 MB",
     "featured": true,
     "version": "9.0.2",
-    "date": "2026-10-26",
+    "date": "2026-10-28",
     "downloadUrl": "https://www.gyan.dev/ffmpeg/builds/#release-builds"
   },
   {
@@ -125,7 +125,7 @@
     "size": "1.8 MB",
     "featured": false,
     "version": "25.01",
-    "date": "2026-10-26",
+    "date": "2026-10-28",
     "downloadUrl": "https://www.7-zip.org/download.html"
   },
   {
@@ -148,7 +148,7 @@
     "size": "78 MB",
     "featured": false,
     "version": "1.108.2",
-    "date": "2026-10-26",
+    "date": "2026-10-28",
     "downloadUrl": "https://code.visualstudio.com/download"
   },
   {
@@ -171,7 +171,7 @@
     "size": "22.6 MB",
     "featured": false,
     "version": "4 (Build 4215)",
-    "date": "2026-10-26",
+    "date": "2026-10-28",
     "downloadUrl": "https://www.sublimetext.com/download"
   },
   {
@@ -194,7 +194,7 @@
     "size": "92 MB",
     "featured": false,
     "version": "4.6.3",
-    "date": "2026-10-26",
+    "date": "2026-10-28",
     "downloadUrl": "https://www.wireshark.org/download.html"
   },
   {
@@ -213,7 +213,7 @@
     "size": "2.3 MB",
     "featured": false,
     "version": "1.3.312",
-    "date": "2026-10-26",
+    "date": "2026-10-28",
     "downloadUrl": "https://getgreenshot.org/downloads/"
   },
   {
@@ -236,7 +236,7 @@
     "size": "13 MB",
     "featured": false,
     "version": "3.71.1",
-    "date": "2026-10-26",
+    "date": "2026-10-28",
     "downloadUrl": "https://filezilla-project.org/download.php"
   },
   {
@@ -263,7 +263,7 @@
     "size": "45 MB",
     "featured": false,
     "version": "3.0.24",
-    "date": "2026-10-26",
+    "date": "2026-10-28",
     "downloadUrl": "https://www.videolan.org/vlc/"
   },
   {
@@ -286,7 +286,7 @@
     "size": "120 MB",
     "featured": false,
     "version": "32.0.4",
-    "date": "2026-10-26",
+    "date": "2026-10-28",
     "downloadUrl": "https://obsproject.com/download"
   },
   {
@@ -309,7 +309,7 @@
     "size": "26.9 MB",
     "featured": false,
     "version": "2.1.0",
-    "date": "2026-10-26",
+    "date": "2026-10-28",
     "downloadUrl": "https://www.geany.org/download/releases/"
   },
   {
@@ -336,7 +336,7 @@
     "size": "静态单文件",
     "featured": false,
     "version": "0.47.0",
-    "date": "2026-10-26",
+    "date": "2026-10-28",
     "downloadUrl": "https://github.com/sigoden/dufs/releases"
   },
   {
@@ -363,7 +363,7 @@
     "size": "约 50 MB",
     "featured": true,
     "version": "1.18.2",
-    "date": "2026-10-26",
+    "date": "2026-10-28",
     "downloadUrl": "https://github.com/localsend/localsend/releases"
   },
   {
@@ -388,7 +388,7 @@
     "size": "约 15 MB",
     "featured": false,
     "version": "2.63.23",
-    "date": "2026-10-26",
+    "date": "2026-10-28",
     "downloadUrl": "https://github.com/filebrowser/filebrowser/releases"
   },
   {
@@ -413,7 +413,7 @@
     "size": "约 20 MB",
     "featured": true,
     "version": "2.11.7",
-    "date": "2026-10-26",
+    "date": "2026-10-28",
     "downloadUrl": "https://github.com/caddyserver/caddy/releases"
   },
   {
@@ -436,7 +436,7 @@
     "size": "约 30 MB",
     "featured": false,
     "version": "1.13.11",
-    "date": "2026-10-26",
+    "date": "2026-10-28",
     "downloadUrl": "https://github.com/livekit/livekit/releases"
   },
   {
@@ -463,7 +463,7 @@
     "size": "约 10 MB",
     "featured": true,
     "version": "0.71.1",
-    "date": "2026-10-26",
+    "date": "2026-10-28",
     "downloadUrl": "https://github.com/fatedier/frp/releases"
   },
   {
@@ -490,7 +490,7 @@
     "size": "约 15 MB",
     "featured": false,
     "version": "11.5.5",
-    "date": "2026-10-26",
+    "date": "2026-10-28",
     "downloadUrl": "https://github.com/schollz/croc/releases"
   },
   {
@@ -519,7 +519,7 @@
     "size": "约 20 MB",
     "featured": true,
     "version": "2.1.7",
-    "date": "2026-10-26",
+    "date": "2026-10-21",
     "downloadUrl": "https://github.com/syncthing/syncthing/releases"
   },
   {
@@ -542,7 +542,7 @@
     "size": "约 10 MB",
     "featured": false,
     "version": "5.17.2",
-    "date": "2026-10-26",
+    "date": "2026-10-24",
     "downloadUrl": "https://github.com/hacdias/webdav/releases"
   },
   {
@@ -569,7 +569,7 @@
     "size": "约 30 MB",
     "featured": true,
     "version": "26.10.21",
-    "date": "2026-10-26",
+    "date": "2026-10-21",
     "downloadUrl": "https://github.com/XTLS/Xray-core/releases"
   },
   {
@@ -594,7 +594,7 @@
     "size": "源码编译",
     "featured": false,
     "version": "4.18.0-r0",
-    "date": "2026-10-26",
+    "date": "2026-09-08",
     "downloadUrl": "https://github.com/coturn/coturn"
   },
   {
@@ -621,7 +621,7 @@
     "size": "约 5 MB",
     "featured": false,
     "version": "2.6.4",
-    "date": "2026-10-26",
+    "date": "2026-05-12",
     "downloadUrl": "https://github.com/EasyTier/EasyTier/releases"
   },
   {
@@ -644,7 +644,7 @@
     "size": "约 10 MB",
     "featured": false,
     "version": "0.6.0",
-    "date": "2026-10-26",
+    "date": "2025-06-09",
     "downloadUrl": "https://github.com/ekzhang/bore/releases"
   },
   {
@@ -669,7 +669,7 @@
     "size": "约 5 MB",
     "featured": false,
     "version": "0.5.0",
-    "date": "2026-10-26",
+    "date": "2023-10-01",
     "downloadUrl": "https://github.com/rathole-org/rathole/releases"
   },
   {
@@ -696,7 +696,7 @@
     "size": "约 2 MB",
     "featured": false,
     "version": "1.7.7",
-    "date": "2026-10-26",
+    "date": "2024-03-30",
     "downloadUrl": "https://github.com/tsl0922/ttyd/releases"
   },
   {
@@ -721,7 +721,7 @@
     "size": "约 10 MB",
     "featured": false,
     "version": "1.9.15",
-    "date": "2026-10-26",
+    "date": "2026-10-25",
     "downloadUrl": "https://github.com/AlexxIT/go2rtc/releases"
   },
   {
@@ -746,7 +746,7 @@
     "size": "约 5 MB",
     "featured": false,
     "version": "2.7.0",
-    "date": "2026-10-26",
+    "date": "2026-07-12",
     "downloadUrl": "https://github.com/xjasonlyu/tun2socks/releases"
   },
   {
@@ -771,7 +771,7 @@
     "size": "源码编译",
     "featured": false,
     "version": "1.8.1.3",
-    "date": "2026-10-26",
+    "date": "2026-10-28",
     "downloadUrl": "http://www.dest-unreach.org/socat/"
   },
   {
@@ -794,7 +794,7 @@
     "size": "源码编译",
     "featured": false,
     "version": "7.2",
-    "date": "2026-10-26",
+    "date": "2026-10-28",
     "downloadUrl": "https://git.kernel.org/pub/scm/network/tftp/tftp-hpa.git"
   },
   {
@@ -817,7 +817,7 @@
     "size": "源码编译",
     "featured": false,
     "version": "0.8.1",
-    "date": "2026-10-26",
+    "date": "2026-10-28",
     "downloadUrl": "https://github.com/madmartin/atftp"
   },
   {
@@ -844,7 +844,7 @@
     "size": "约 30 MB",
     "featured": true,
     "version": "1.5.0",
-    "date": "2026-10-26",
+    "date": "2026-09-30",
     "downloadUrl": "https://github.com/rustdesk/rustdesk/releases"
   },
   {
@@ -869,7 +869,7 @@
     "size": "Docker 部署",
     "featured": true,
     "version": "3.3.5",
-    "date": "2026-10-26",
+    "date": "2026-10-21",
     "downloadUrl": "https://github.com/immich-app/immich/releases"
   },
   {
@@ -896,7 +896,7 @@
     "size": "约 100 MB",
     "featured": false,
     "version": "3.3.25",
-    "date": "2026-10-26",
+    "date": "2026-09-11",
     "downloadUrl": "https://github.com/plainhub/plain-app/releases"
   },
   {
@@ -921,7 +921,7 @@
     "size": "约 15 MB",
     "featured": false,
     "version": "3.x",
-    "date": "2026-10-26",
+    "date": "2026-10-28",
     "downloadUrl": "https://rlab.ru/tools/rsaver.html"
   },
   {
@@ -939,8 +939,8 @@
     ],
     "size": "约 15 MB",
     "featured": false,
-    "version": "2.16.58.2",
-    "date": "2026-10-26",
+    "version": "2.16.60",
+    "date": "2026-10-27",
     "downloadUrl": "https://winmerge.org/downloads/"
   },
   {
@@ -963,7 +963,7 @@
     "size": "约 5 MB",
     "featured": true,
     "version": "37.0.1",
-    "date": "2026-10-26",
+    "date": "2026-10-28",
     "downloadUrl": "https://developer.android.com/tools/releases/platform-tools"
   },
   {
@@ -986,7 +986,7 @@
     "size": "约 10 MB",
     "featured": false,
     "version": "1.11.1",
-    "date": "2026-10-26",
+    "date": "2021-10-25",
     "downloadUrl": "https://github.com/lucasg/Dependencies/releases"
   },
   {
@@ -1009,7 +1009,7 @@
     "size": "约 50 MB",
     "featured": false,
     "version": "1.1.3.9",
-    "date": "2026-10-26",
+    "date": "2025-01-25",
     "downloadUrl": "https://github.com/chenxuuu/llcom/releases"
   },
   {
@@ -1055,7 +1055,7 @@
     "size": "约 100 MB",
     "featured": true,
     "version": "2.7.0",
-    "date": "2026-10-26",
+    "date": "2025-03-11",
     "downloadUrl": "https://github.com/kingToolbox/WindTerm/releases"
   },
   {
@@ -1074,7 +1074,7 @@
     "size": "约 1 MB",
     "featured": false,
     "version": "26.7.3",
-    "date": "2026-10-26",
+    "date": "2026-07-03",
     "downloadUrl": "https://github.com/Crypt32/Asn1Editor.WPF/releases"
   },
   {
@@ -1099,7 +1099,7 @@
     "size": "约 7 MB",
     "featured": true,
     "version": "3.54.1",
-    "date": "2026-10-26",
+    "date": "2026-10-28",
     "downloadUrl": "https://www.sqlite.org/download.html"
   },
   {
@@ -1122,7 +1122,7 @@
     "size": "约 150 MB",
     "featured": false,
     "version": "3.2.16",
-    "date": "2026-10-26",
+    "date": "2026-07-08",
     "downloadUrl": "https://deskreen.com/"
   },
   {
@@ -1141,7 +1141,7 @@
     "size": "约 45 MB",
     "featured": false,
     "version": "4.5.",
-    "date": "2026-10-26",
+    "date": "2026-10-28",
     "downloadUrl": "https://greenfishsoftware.org/gfie.php"
   },
   {
@@ -1164,7 +1164,7 @@
     "size": "约 20 MB",
     "featured": false,
     "version": "1.6.6",
-    "date": "2026-10-26",
+    "date": "2019-12-25",
     "downloadUrl": "https://github.com/java-decompiler/jd-gui/releases"
   },
   {
@@ -1187,7 +1187,7 @@
     "size": "约 100 MB",
     "featured": true,
     "version": "0.4.6",
-    "date": "2026-10-26",
+    "date": "2026-01-21",
     "downloadUrl": "https://github.com/lapce/lapce/releases"
   },
   {
@@ -1206,7 +1206,140 @@
     "size": "约 25 MB",
     "featured": true,
     "version": "26.10.21",
-    "date": "2026-10-26",
+    "date": "2026-10-28",
     "downloadUrl": "https://potplayer.tv/"
+  },
+  {
+    "id": "geekuninstaller",
+    "name": "Geek Uninstaller",
+    "description": "轻量免费的 Windows 卸载工具，卸载后深度扫描残留文件和注册表项，支持强制卸载。",
+    "category": "system",
+    "icon": "fas fa-broom",
+    "iconColor": "#f59e0b",
+    "platforms": [
+      "Windows"
+    ],
+    "platformTypes": [
+      "desktop"
+    ],
+    "size": "约 5 MB",
+    "featured": true,
+    "version": "1.6.0.200",
+    "date": "2026-10-28",
+    "downloadUrl": "https://geekuninstaller.com/download"
+  },
+  {
+    "id": "vaultwarden",
+    "name": "Vaultwarden",
+    "description": "轻量级 Bitwarden 服务端实现，Rust 编写、内存占用低，兼容官方全部客户端。Docker 镜像 vaultwarden/server。",
+    "category": "security",
+    "icon": "fas fa-shield-halved",
+    "iconColor": "#3b82f6",
+    "platforms": [
+      "Docker"
+    ],
+    "platformTypes": [
+      "desktop"
+    ],
+    "size": "Docker 部署",
+    "featured": true,
+    "version": "1.37.4",
+    "date": "2026-10-05",
+    "downloadUrl": "https://github.com/dani-garcia/vaultwarden/releases"
+  },
+  {
+    "id": "memos",
+    "name": "Memos",
+    "description": "轻量级自托管碎片化笔记应用，支持 Markdown、标签、图片与 API，资源占用极低。Docker 镜像 neosmemo/memos。",
+    "category": "productivity",
+    "icon": "fas fa-note-sticky",
+    "iconColor": "#64748b",
+    "platforms": [
+      "Docker"
+    ],
+    "platformTypes": [
+      "desktop"
+    ],
+    "size": "Docker 部署",
+    "featured": true,
+    "version": "0.31.0",
+    "date": "2026-09-19",
+    "downloadUrl": "https://github.com/usememos/memos/releases"
+  },
+  {
+    "id": "onenav",
+    "name": "OneNav",
+    "description": "开源的书签（网址导航）管理程序，支持多用户、多主题、API 与浏览器书签导入。Docker 镜像 helloz/onenav。",
+    "category": "productivity",
+    "icon": "fas fa-bookmark",
+    "iconColor": "#d97706",
+    "platforms": [
+      "Docker"
+    ],
+    "platformTypes": [
+      "desktop"
+    ],
+    "size": "Docker 部署",
+    "featured": false,
+    "version": "1.3.1",
+    "date": "2026-10-23",
+    "downloadUrl": "https://github.com/helloxz/onenav/releases"
+  },
+  {
+    "id": "wg-easy",
+    "name": "WG Easy",
+    "description": "WireGuard 的 Web 管理界面，图形化增删客户端、生成二维码与配置，快速搭建 VPN。Docker 镜像 wg-easy/wg-easy。",
+    "category": "security",
+    "icon": "fas fa-network-wired",
+    "iconColor": "#b91c1c",
+    "platforms": [
+      "Docker"
+    ],
+    "platformTypes": [
+      "desktop"
+    ],
+    "size": "Docker 部署",
+    "featured": true,
+    "version": "15.5.0",
+    "date": "2026-10-24",
+    "downloadUrl": "https://github.com/wg-easy/wg-easy/releases"
+  },
+  {
+    "id": "wikijs",
+    "name": "Wiki.js",
+    "description": "基于 Node.js 的现代化 Wiki 系统，支持 Markdown 编辑、细粒度权限、多语言和多种数据库。Docker 镜像 requarks/wiki。",
+    "category": "productivity",
+    "icon": "fas fa-book",
+    "iconColor": "#1d4ed8",
+    "platforms": [
+      "Docker"
+    ],
+    "platformTypes": [
+      "desktop"
+    ],
+    "size": "Docker 部署",
+    "featured": false,
+    "version": "3.0.0-beta.705",
+    "date": "2026-10-26",
+    "downloadUrl": "https://github.com/requarks/wiki/releases"
+  },
+  {
+    "id": "funasr",
+    "name": "FunASR",
+    "description": "达摩院开源的端到端语音识别工具包，支持语音识别、VAD、标点、说话人分离与服务化部署。Docker 镜像 funasr_repo/funasr。",
+    "category": "multimedia",
+    "icon": "fas fa-microphone",
+    "iconColor": "#db2777",
+    "platforms": [
+      "Docker"
+    ],
+    "platformTypes": [
+      "desktop"
+    ],
+    "size": "Docker 部署",
+    "featured": false,
+    "version": "1.4.16",
+    "date": "2026-09-18",
+    "downloadUrl": "https://github.com/modelscope/FunASR/releases"
   }
 ]

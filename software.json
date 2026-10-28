@@ -1370,5 +1370,160 @@
       "versionRegex": "Version='([\\d.]+)'",
       "fallbackVersion": "26.10.21"
     }
+  },
+  {
+    "id": "geekuninstaller",
+    "name": "Geek Uninstaller",
+    "description": "轻量免费的 Windows 卸载工具，卸载后深度扫描残留文件和注册表项，支持强制卸载。",
+    "category": "system",
+    "icon": "fas fa-broom",
+    "iconColor": "#f59e0b",
+    "platforms": [
+      "Windows"
+    ],
+    "platformTypes": [
+      "desktop"
+    ],
+    "size": "约 5 MB",
+    "featured": true,
+    "downloadUrl": "https://geekuninstaller.com/download",
+    "source": {
+      "type": "url",
+      "url": "https://geekuninstaller.com/download",
+      "versionRegex": "<b>(\\d+(?:\\.\\d+){1,3})</b>",
+      "fallbackVersion": "1.6.0.200"
+    }
+  },
+  {
+    "id": "vaultwarden",
+    "name": "Vaultwarden",
+    "description": "轻量级 Bitwarden 服务端实现，Rust 编写、内存占用低，兼容官方全部客户端。Docker 镜像 vaultwarden/server。",
+    "category": "security",
+    "icon": "fas fa-shield-halved",
+    "iconColor": "#3b82f6",
+    "platforms": [
+      "Docker"
+    ],
+    "platformTypes": [
+      "desktop"
+    ],
+    "size": "Docker 部署",
+    "featured": true,
+    "downloadUrl": "https://github.com/dani-garcia/vaultwarden/releases",
+    "source": {
+      "type": "github",
+      "repo": "dani-garcia/vaultwarden",
+      "fallbackVersion": "1.37.4"
+    }
+  },
+  {
+    "id": "memos",
+    "name": "Memos",
+    "description": "轻量级自托管碎片化笔记应用，支持 Markdown、标签、图片与 API，资源占用极低。Docker 镜像 neosmemo/memos。",
+    "category": "productivity",
+    "icon": "fas fa-note-sticky",
+    "iconColor": "#64748b",
+    "platforms": [
+      "Docker"
+    ],
+    "platformTypes": [
+      "desktop"
+    ],
+    "size": "Docker 部署",
+    "featured": true,
+    "downloadUrl": "https://github.com/usememos/memos/releases",
+    "source": {
+      "type": "github",
+      "repo": "usememos/memos",
+      "fallbackVersion": "0.31.0"
+    }
+  },
+  {
+    "id": "onenav",
+    "name": "OneNav",
+    "description": "开源的书签（网址导航）管理程序，支持多用户、多主题、API 与浏览器书签导入。Docker 镜像 helloz/onenav。",
+    "category": "productivity",
+    "icon": "fas fa-bookmark",
+    "iconColor": "#d97706",
+    "platforms": [
+      "Docker"
+    ],
+    "platformTypes": [
+      "desktop"
+    ],
+    "size": "Docker 部署",
+    "featured": false,
+    "downloadUrl": "https://github.com/helloxz/onenav/releases",
+    "source": {
+      "type": "github",
+      "repo": "helloxz/onenav",
+      "fallbackVersion": "1.3.1"
+    }
+  },
+  {
+    "id": "wg-easy",
+    "name": "WG Easy",
+    "description": "WireGuard 的 Web 管理界面，图形化增删客户端、生成二维码与配置，快速搭建 VPN。Docker 镜像 wg-easy/wg-easy。",
+    "category": "security",
+    "icon": "fas fa-network-wired",
+    "iconColor": "#b91c1c",
+    "platforms": [
+      "Docker"
+    ],
+    "platformTypes": [
+      "desktop"
+    ],
+    "size": "Docker 部署",
+    "featured": true,
+    "downloadUrl": "https://github.com/wg-easy/wg-easy/releases",
+    "source": {
+      "type": "github",
+      "repo": "wg-easy/wg-easy",
+      "fallbackVersion": "15.5.0"
+    }
+  },
+  {
+    "id": "wikijs",
+    "name": "Wiki.js",
+    "description": "基于 Node.js 的现代化 Wiki 系统，支持 Markdown 编辑、细粒度权限、多语言和多种数据库。Docker 镜像 requarks/wiki。",
+    "category": "productivity",
+    "icon": "fas fa-book",
+    "iconColor": "#1d4ed8",
+    "platforms": [
+      "Docker"
+    ],
+    "platformTypes": [
+      "desktop"
+    ],
+    "size": "Docker 部署",
+    "featured": false,
+    "downloadUrl": "https://github.com/requarks/wiki/releases",
+    "source": {
+      "type": "github",
+      "repo": "requarks/wiki",
+      "fallbackVersion": "2.5.314"
+    }
+  },
+  {
+    "id": "funasr",
+    "name": "FunASR",
+    "description": "达摩院开源的端到端语音识别工具包，支持语音识别、VAD、标点、说话人分离与服务化部署。Docker 镜像 funasr_repo/funasr。",
+    "category": "multimedia",
+    "icon": "fas fa-microphone",
+    "iconColor": "#db2777",
+    "platforms": [
+      "Docker"
+    ],
+    "platformTypes": [
+      "desktop"
+    ],
+    "size": "Docker 部署",
+    "featured": false,
+    "downloadUrl": "https://github.com/modelscope/FunASR/releases",
+    "source": {
+      "type": "github",
+      "repo": "modelscope/FunASR",
+      "fallbackVersion": "1.4.16"
+    }
   }
 ]
